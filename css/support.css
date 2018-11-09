@@ -1,0 +1,94 @@
+.all {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#about-article {
+  width: 40%;
+  padding-left: 2%;
+  padding-right: 2%;
+  
+  /*overwrite article 
+  rule for margin-bottom 
+  in master.css*/
+  margin-bottom: 8%;
+}
+
+#article-head {
+  font-size: 200%;
+  font-weight: 600;
+}
+
+#story {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  padding: 2%;
+  padding-bottom: 0%;
+}
+
+#story p {
+  color: #637381;
+  font-size: 90%;
+  text-align: left;
+}
+
+#promo {
+  /*border: 1px yellow solid;*/
+  float: left;
+  width: 100%;
+  margin-bottom:4%;
+  margin-left: auto;
+  margin-top: 2%;
+  margin-right: auto;
+}
+
+.grid-3-col {
+  border: 1px #dfe3e8 solid;
+  width: 20%;
+  height: 30%;
+  padding: 1%;
+}
+
+#careers {
+  margin-left: 11.5%;
+}
+
+#promo a {
+  color: #b1040e;
+  text-decoration: underline;
+}
+
+#promo p {
+  color: #637381;
+  font-size: 90%;
+}
+
+.hr-vertical {
+  border-top: 2px #000 solid;
+  width: 160px;
+  transform: rotate(90deg);
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+#join {
+  clear: both;
+  border: 1px #544948 solid;
+  color: #544948;
+  padding: 1%;
+}
+
+#join:hover {
+  border-color: #b1040e;
+  color: #b1040e;
+}
+
+#call {
+  margin-bottom: 2%;
+  margin-top: 4%;
+  clear: both;
+}
